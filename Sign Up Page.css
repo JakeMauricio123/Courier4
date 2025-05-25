@@ -1,0 +1,310 @@
+
+body {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+    z-index: 1000;
+    min-height: 100vh;
+    background:  #F9F39C;
+
+}
+
+.UpperLeftLogo{
+    background:  #FDCD99;
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+
+.button1{
+    color: #4A3212;
+    padding: 27px;
+    margin-top: -15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: center;
+}
+
+.button2{
+    color: #4A3212;
+    padding: 27px;
+    margin-top: -15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: center;
+}
+
+.button3{
+    color: #4A3212;
+    padding: 0px;
+    margin-top: -15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: center;
+}
+
+.button4{
+    color: #4A3212;
+    padding: 15px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 75px;
+    background: linear-gradient(transparent, #f9f39c);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: -15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: center;
+
+}
+nav{
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    height: 100px;
+
+    background: linear-gradient(#f9f39c, #FDCD99) ;
+    display: block;
+    justify-content: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    font-size: 18px;
+}
+
+header{
+    position: relative;
+    top:0%;
+    width: 100%;
+    display: block;
+    margin-top: -5px;
+}
+
+
+.Birthdate {
+    display:inline-flex;
+    align-content: center;
+    gap: 2px;
+    justify-items: center;
+    font-size: 18px;
+}
+
+.Birthdate input {
+    width: 60px;
+    padding: 8px;
+}
+
+.Birthdate label{
+    color: #ffffff;
+    font-size: 14px;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.signup-container {
+    margin-top: 50px;
+    align-items: center;
+    display: inline-block;
+    padding: 50px 80px;
+    border-radius: 80px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 350px;
+    text-align: center;
+    background: #f9f39cc7;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+}
+
+label {
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    width: 350px;
+    padding: 8px;
+    border-radius: 40px;
+    border-color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+
+
+input::placeholder {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn {
+    background: #FDCD99;
+    color: #ffffff;
+    padding: 8px;
+    width: 90px;
+    border: #ffffff;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.8s ease;
+}
+
+.btn:hover {
+    background: #FDCD99;
+    color: #000000;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    margin: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 3px solid #ffffff;
+    border-radius: 1px;
+}
+
+.divider::before {
+    margin-right: 0.5rem;
+}
+
+.divider::after {
+    margin-left: 0.5rem;
+}
+
+.gl-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #faa550;
+    color: #ffffff;
+    padding: 7px;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.8s ease;
+    
+    
+}
+
+.gl-btn:hover {
+    background: url(Artboard\ 20.png);
+    color: transparent;
+    background-color: #ffffff;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    scale: 1.08;
+    transition: 0.2s ease;
+    
+}
+
+.gl-btn2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(49, 136, 236);
+    color: #ffffff;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.8s ease;
+}
+
+.gl-btn2:hover {
+    background: url(fb\ icon.png);
+    color: transparent;
+    background-color: #ffffff;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    scale: 1.08;
+    transition:   0.2s ease;
+}
+
+.gl-btn3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    color: #ffffff;
+    padding: 7px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.8s ease;
+}
+
+.gender{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+} 
+
+.gender label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.gender input[type="radio"]{
+    
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 2px #000000;
+}
